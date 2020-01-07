@@ -1,3 +1,4 @@
+require 'pry'
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
@@ -26,6 +27,7 @@ end
 
 def play(number)
   songs(number)
+  binding.pry
 end
 
 def list
