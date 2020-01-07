@@ -26,7 +26,6 @@ def help
 end
 
 def play(number)
-  puts songs
   return songs[number]
 end
 
