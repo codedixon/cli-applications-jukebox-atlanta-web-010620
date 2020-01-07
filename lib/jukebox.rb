@@ -25,7 +25,7 @@ def help
   puts "- exit : exits this program"
 end
 
-def play(number)
+def play
   songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
@@ -37,7 +37,9 @@ def play(number)
   "Harry Chapin - Cats in the Cradle",
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
-  return songs[0]
+puts "Please enter a song or number:"
+song_number = gets.strip
+  return songs[song_number]
 end
 
 def list
