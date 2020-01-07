@@ -1,4 +1,3 @@
-require 'pry'
 
 songs = [
   "Phoenix - 1901",
@@ -27,7 +26,7 @@ def help
 end
 
 def play(number)
-  binding.pry
+  puts songs
   return songs[number]
 end
 
