@@ -26,8 +26,8 @@ def help
 end
 
 def play
-  
-  songs = [
+ puts "Please enter a song or number:"
+   songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
   "Sufjan Stevens - Too Much",
@@ -38,7 +38,6 @@ def play
   "Harry Chapin - Cats in the Cradle",
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
-puts "Please enter a song or number:"
 song_number = gets.strip
   return songs[song_number]
 end
