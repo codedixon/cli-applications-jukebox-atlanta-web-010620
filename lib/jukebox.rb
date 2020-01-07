@@ -25,7 +25,7 @@ def help
 end
 
 def play(number)
-  songs[number]
+  songs(number)
 end
 
 def list
