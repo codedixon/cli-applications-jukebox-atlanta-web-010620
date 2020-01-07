@@ -27,8 +27,8 @@ def help
 end
 
 def play(number)
-  songs[number]
-  binding.pry
+  binding pry
+  return songs[number]
 end
 
 def list
