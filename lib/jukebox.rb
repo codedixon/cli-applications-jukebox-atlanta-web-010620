@@ -17,8 +17,8 @@ end
 
 
 def help
-  puts "I accept the following commands/n
-  -help "
+  puts "I accept the following commands\n
+  - help displays this help message"
 end
 
 def play
