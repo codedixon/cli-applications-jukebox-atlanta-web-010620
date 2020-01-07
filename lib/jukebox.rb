@@ -24,7 +24,8 @@ def help
   puts "- exit : exits this program"
 end
 
-def play
+def play(number)
+  songs[number]
 end
 
 def list
