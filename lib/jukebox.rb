@@ -17,7 +17,7 @@ end
 
 
 def help
-  puts "I accept the following commands"
+  puts "I accept the following commands:/"
 end
 
 def play
