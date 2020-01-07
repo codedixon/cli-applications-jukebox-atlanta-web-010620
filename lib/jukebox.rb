@@ -27,7 +27,7 @@ def help
 end
 
 def play(number)
-  songs(number)
+  songs[number]
   binding.pry
 end
 
